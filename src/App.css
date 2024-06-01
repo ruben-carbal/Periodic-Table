@@ -1,0 +1,241 @@
+.App {
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(18, 65px)  ;
+  grid-template-rows: repeat(9, 65px);
+  margin: 70px 50px;
+  gap: 2px;
+  height: 100vh;
+  justify-content: center;
+}
+
+.elements {
+  border-radius: 5px;
+}
+
+.elements:hover {
+  cursor: pointer;
+  height: auto;
+  border: 1px solid grey;
+}
+
+.diatomic{
+  background-color: aqua;
+}
+
+.noble {
+  background-color: hotpink;
+}
+
+.alkali {
+  background-color: #BFCFE7;
+}
+
+.alkaline {
+  background-color: #C3FF93;
+}
+
+.metalloid {
+  background-color: #B7B599;
+}
+
+.polyatomic {
+  background-color: #D0F5BE;
+}
+
+.post-transition {
+  background-color: #FFF787;
+}
+
+.lanthanide {
+  background-color: #A0DEFF;
+}
+
+.actinide {
+  background-color: #FFEAE3;
+}
+
+.transition {
+  background-color: #97DEFF;
+}
+
+.Helium {
+  grid-column-start: -2;
+}
+
+.Boron, .Aluminium {
+  grid-column-start: 13;
+}
+
+.Cerium, .Thorium {
+  grid-column-start: 3;
+}
+
+.Ununennium {
+  grid-column-start: -2;
+}
+
+.Hafnium {
+  grid-column-start: 4;
+  grid-row-start: 6;
+}
+
+.Tantalum {
+  grid-column-start: 5;
+  grid-row-start: 6;
+}
+
+.Tungsten {
+  grid-column-start: 6;
+  grid-row-start: 6;
+}
+
+.Rhenium {
+  grid-column-start: 7;
+  grid-row-start: 6;
+}
+
+.Osmium {
+  grid-column-start: 8;
+  grid-row-start: 6;
+}
+
+.Iridium {
+  grid-column-start: 9;
+  grid-row-start: 6;
+}
+
+.Platinum {
+  grid-column-start: 10;
+  grid-row-start: 6;
+}
+
+.Gold {
+  grid-column-start: 11;
+  grid-row-start: 6;
+}
+
+.Mercury {
+  grid-column-start: 12;
+  grid-row-start: 6;
+}
+
+.Thallium {
+  grid-column-start: 13;
+  grid-row-start: 6;
+}
+
+.Lead {
+  grid-column-start: 14;
+  grid-row-start: 6;
+}
+
+.Bismuth {
+  grid-column-start: 15;
+  grid-row-start: 6;
+}
+
+.Polonium {
+  grid-column-start: 16;
+  grid-row-start: 6;
+}
+
+.Astatine {
+  grid-column-start: 17;
+  grid-row-start: 6;
+}
+
+.Radon {
+  grid-column-start: 18;
+  grid-row-start: 6;
+}
+
+.Francium {
+  grid-column-start: 1;
+  grid-row-start: 7;
+}
+
+.Radium {
+  grid-column-start: 2;
+  grid-row-start: 7;
+}
+
+.Actinium {
+  grid-column-start: 3;
+  grid-row-start: 7;
+}
+
+.Rutherfordium {
+  grid-column-start: 4;
+  grid-row-start: 7;
+}
+
+.Dubnium {
+  grid-column-start: 5;
+  grid-row-start: 7;
+}
+
+.Seaborgium {
+  grid-column-start: 6;
+  grid-row-start: 7;
+}
+
+.Bohrium {
+  grid-column-start: 7;
+  grid-row-start: 7;
+}
+
+.Hassium {
+  grid-column-start: 8;
+  grid-row-start: 7;
+}
+
+.Meitnerium {
+  grid-column-start: 9;
+  grid-row-start: 7;
+}
+
+.Darmstadtium {
+  grid-column-start: 10;
+  grid-row-start: 7;
+}
+
+.Roentgenium {
+  grid-column-start: 11;
+  grid-row-start: 7;
+}
+
+.Copernicium {
+  grid-column-start: 12;
+  grid-row-start: 7;
+}
+
+.Nihonium {
+  grid-column-start: 13;
+  grid-row-start: 7;
+}
+
+.Flerovium {
+  grid-column-start: 14;
+  grid-row-start: 7;
+}
+
+.Moscovium {
+  grid-column-start: 15;
+  grid-row-start: 7;
+}
+
+.Livermorium {
+  grid-column-start: 16;
+  grid-row-start: 7;
+}
+
+.Tennessine {
+  grid-column-start: 17;
+  grid-row-start: 7;
+}
+
+.Oganesson {
+  grid-column-start: 18;
+  grid-row-start: 7;
+} 
