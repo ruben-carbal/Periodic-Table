@@ -12,7 +12,7 @@ function App() {
   
   useEffect(() => {
     axios 
-      .get('http://localhost:3001/elements')
+      .get('http://localhost:3001/api/elements')
       .then(response => {
         setElement(response.data);
     })},[])
