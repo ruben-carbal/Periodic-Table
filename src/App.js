@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 import { Elemento } from './components/Elementos';
 import Information from './components/Information';
-const baseUrl = '/api/elements'
+const baseUrl = 'http://localhost:3001/api/elements'
 
 function App() {
   const [element, setElement] = useState([]);

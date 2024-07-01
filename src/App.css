@@ -1,12 +1,13 @@
 .App {
   text-align: center;
   display: grid;
-  grid-template-columns: repeat(18, 65px)  ;
-  grid-template-rows: repeat(9, 65px);
+  grid-template-columns: repeat(18, 5vw);
+  grid-template-rows: repeat(9, 5vw);
   margin: 70px 50px;
   gap: 2px;
   height: 100vh;
   justify-content: center;
+  overflow: visible;
 }
 
 .elements {
@@ -15,7 +16,6 @@
 
 .elements:hover {
   cursor: pointer;
-  height: auto;
   border: 1px solid grey;
 }
 
@@ -239,3 +239,9 @@
   grid-column-start: 18;
   grid-row-start: 7;
 } 
+
+@media (max-width: 1000px) {
+  small {
+    display: none;
+  };
+}
