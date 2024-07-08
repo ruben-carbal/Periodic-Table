@@ -3,7 +3,7 @@ import './App.css';
 import axios from 'axios';
 import { Elemento } from './components/Elementos';
 import Information from './components/Information';
-const baseUrl = '/api/elements'
+const baseUrl = 'https://interactive-periodic-table.vercel.app/api/elements'
 
 function App() {
   const [element, setElement] = useState([]);
@@ -31,7 +31,7 @@ function App() {
 
   return (
     <div className='App'>
-      {element.map(el => 
+     {element.map(el => 
         <Elemento click={() => {
           setElementToShow(el.name);
           handleClick();
