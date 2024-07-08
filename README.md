@@ -3,7 +3,7 @@ This is an interactive periodic table made with React, Tailwind y todo lo que se
 
 The JSON was obtained from the [Periodic-Table-JSON](https://github.com/Bowserinator/Periodic-Table-JSON) repository
 
-You can find it on: 
+You can find it on: https://periodic-table-flax.vercel.app/
 #
 
 
